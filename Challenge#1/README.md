@@ -29,7 +29,7 @@ Note that, In order to run the terraform code we need Terraform v1.0.4 and valid
 
 Please follow below sequence to run the code:
 
-1. Clone the repository and update the user profile as per your credentials.
+1. Clone the repository and update the user profile (in variables.tf file) as per your credentials.
 2. Go to tech-challenges folder by using the command - cd tech-challenges
 3. Check the version of terraform using the command - terraform -version
 4. Initialize terraform using the command - terraform init
