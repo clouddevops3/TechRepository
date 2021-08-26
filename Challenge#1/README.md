@@ -1,4 +1,8 @@
-# Three-Tier Architecture
+Challenge#1
+===== 
+Create a Three-Tier Architecture using the tool of your choosing/familiarity 
+
+## What it does
 Three-tier architecture is a well-established software application architecture that organizes applications into three logical and physical computing tiers: the presentation tier, or user interface; the application tier, where data is processed; and the data tier, where the data associated with the application is stored and managed.
 
 I have replicated the below architecture using the terraform IAC and AWS as cloud provider. This infrastructure provides scalability (horizontal), high availability, fault tolerance and seccurity. The following services are configured to achieve the said architecture:
@@ -13,14 +17,14 @@ I have replicated the below architecture using the terraform IAC and AWS as clou
 8. Internet Gateway. 
 
 
-
 ![Network Diagram](https://user-images.githubusercontent.com/89520742/130833080-9df30743-b9b4-4287-8476-c97b084c4016.jpeg)
 
 
-Below is the design approach: 
+## Design approach: 
 
 VPC -> Internet Gateway -> Subnet Creation -> Route table creation -> NAT gateway creation -> ELB creation -> Auto scaling group creation -> Bastion host creation 
 
+## How to run
 Note that, In order to run the terraform code we need Terraform v1.0.4 and valid AWS subscription (free subscriotion will also work).
 
 Please follow below sequence to run the code:
@@ -32,7 +36,7 @@ Please follow below sequence to run the code:
 5. Run the terraform plan using the command - terraform plan
 6. Run the terraform apply to apply the coniguration onto AWS cloud using the command - terraform apply
 
-Test Results (just for reference):
+## Test Output (just for reference):
 Below are the test result of the dry run I performed to ensure that the code is running as expected:
 
 VPC:
