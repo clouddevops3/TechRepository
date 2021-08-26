@@ -21,9 +21,9 @@
 ## How to run
 - Open the `Challenge#2` directory
   - `cd Challenge#2`
-- Run "get_metadata.py" to retrive the metadata in JSON format and run "get_key.py" in order to retrive a particular key:
-  - `python3 get_metadata.py`
-  - `python3 get_key.py`
+- Run "metadata.py" to retrive the metadata in JSON format and run "key.py" in order to retrive a particular key:
+  - `python3 metadata.py`
+  - `python3 key.py`
 
 ## Test Output
 
