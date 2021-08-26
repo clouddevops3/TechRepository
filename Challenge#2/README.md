@@ -1,4 +1,6 @@
-# Question: Query the meta data of an instance within AWS and provide a json formatted output
+Challenge#2
+=====  
+Query the meta data of an instance within AWS and provide a json formatted output
 
 ## What it does
 - Query the metadata of an ec2 instance within AWS and provide a json formatted output. 
